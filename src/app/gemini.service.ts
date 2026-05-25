@@ -6,7 +6,7 @@ import { GoogleGenAI } from '@google/genai';
 })
 export class GeminiService {
   // Inicializamos el SDK con tu API Key
-  private ai = new GoogleGenAI({ apiKey: 'AIzaSyCou8HPmTfs4Ln1fJJAkPFamzyU3DVxk38' });
+  private ai = new GoogleGenAI({ apiKey: 'AIzaSyBkIFIr82nuCQ53VkdnNzmcKnYiXYFYa4U' });
   
   // Creamos una sesión de chat utilizando el modelo optimizado para texto y diálogos
   private chat = this.ai.chats.create({
